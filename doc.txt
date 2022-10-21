@@ -1,0 +1,49 @@
+WINDOW:
+       
+       The first thing that is loaded in the browser.Window is the main JavaScript object root,
+       the global object in a browser, and it can also be treated as the root of the document 
+       object model.You can access it as window.This window has the majority of the properties 
+       like length, innerWidth, innerHeight, name etc.The html document is also loaded inside 
+       window.
+      
+       syntax: window.propertyname
+       
+       Some of the window methods are 
+          
+            window.open()=> it is used to open new window
+            window.close()=>it is used to close current window
+
+ 
+DOCUMENT:
+
+        The document any web page  loaded into the browserand serves as an entry point into the web 
+        page's content.The document object is your html, aspx, php, or other document that will be 
+        loaded into the browser.The document actually gets loaded inside the window object. 
+        
+        Syntax:  document.propertyname
+
+        Properties:
+        activeElement	    Returns the currently focused element in the document
+        addEventListener()	Attaches an event handler to the document
+
+
+
+
+
+SCREEN:
+
+        Window.screen is one of the property which is associated with the window,which 
+        contains information about physical screen dimensions.
+
+        Syntax: window.screen.propertyname  (OR) screen.propertyname 
+        Properties:
+               screen.width
+               screen.height
+               screen.colorDepth
+
+
+        
+     
+      
+
+       
